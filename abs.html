@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Register_fullstackConference</title>
+</head>
+
+<body>
+
+
+    <header class="main-header">
+
+        <h1 class="main-header-item header-name-1">Register for</h1>
+        <h1 class="main-header-item header-name-2">Full Stack Conference</h1>
+    </header>
+
+    <main class="main-container  main-item">
+
+        <h2 class="main-item required-field">* required field</h2>
+
+        <section class="main-item basic-ts-item">
+
+            <section class="basic-ts-item basic-item">
+                <h2 class="basic-item basic-title">Basic Info</h2>
+                <section class="basic-item  basic-name">
+                    <label class="basic-name  name-item">Name: *</label>
+                    <input type="text" id="name" required>
+                </section>
+
+                <section class="basic-item basic-address">
+                    <label class="basic-address  address-item">Email Address: *</label>
+                    <input type="text" id="Email address" required>
+                </section>
+
+                <section class="basic-item basic-job">
+                    <label class="basic-job  job-item">Job Role: </label>
+                    <select id="basic-job select-job">
+                        <option value="Select job role">Select job role</option>
+                        <option value="frontend">Frontend Developer</option>
+                        <option value="backend">Backend Developer</option>
+                        <option value="fullstack">Full Stack Developer</option>
+                        <option value="designer">UI/UX Designer</option>
+                        <option value="pm">Project Manager</option>
+                    </select>
+                </section>
+
+
+            </section>
+
+
+            <section class="basic-ts-item ts-item">
+
+                <h2 class="ts-item   ts-title">T-Shirt Info</h2>
+                <section class="ts-item size-design">
+                    <section class=" size-design size-box">
+                        <label class="size-item size-title">Size:</label>
+                        <select class="ts-size select-size">
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
+                        </select>
+                    </section>
+
+                    <section class=" size-design design-box">
+                        <label class="design-item design-title">Design:</label>
+                        <select class="ts-design select-design">
+                            <option value="">Select Theme</option>
+                            <option value="Js">JS Puns</option>
+                            <option value="heart">I Love You</option>
+                            <option value="node">Node.js Logo</option>
+                            <option value="react">React Rocks</option>
+                            <option value="custom">Design Personalizat</option>
+                        </select>
+                    </section>
+                </section>
+
+
+
+
+
+                <section class="ts-item color-box">
+                    <label class="color-box   color-title">Color:</label>
+                    <select class="color-box select-color">
+                        <option value="blue">Blue</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="pink">Pink</option>
+                        <option value="black">Black</option>
+                        <option value="white">White</option>
+                        <option value="orange">Orange</option>
+                    </select>
+
+                </section>
+
+                <section class="ts-item  other-job-item">
+                    <label class="other-job-item  name-item"></label>
+                    <input class="other-job-input" type="text" id="name" placeholder="Other job role?" required>
+                </section>
+
+
+
+            </section>
+        </section>
+
+        <section class="main-item register-activities-item">
+
+            <h2 class="register-activities-item  reg-act-title">Register for Activities *</h2>
+
+            <section class="register-activities-item main-conv-item">
+ 
+                <div class="main-conv-item mcf-left">
+
+                    <div class="mcf-left mcf-checkbox">
+
+                       <label for="" >Main Conference</label>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="mcf-left mcf-empty">
+
+                    </div>
+                </div>
+
+                <div class="main-conv-item mcf-right">
+
+                    <img src="/image/js.png" class="mcf-right mcf-picture" />
+                    <p class="mcf-right mcf-value">$200</p>
+
+                </div>
+
+
+
+
+
+
+
+
+            </section>
+
+            <section class ="register-activities-item other-register">
+
+                <section class="other-register javascript-item">
+ 
+                <div class="javascript-item javascript-left">
+
+                    <div class="javascript-left javascript-checkbox">
+
+                       <label for="" >JavaScript Libraries Workshop</label>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="javascript-left javascript-empty">
+
+                    <p>Tuesday 9am-12pm</p>
+
+                    </div>
+                </div>
+
+                <div class="javascript-item javascript-right">
+
+                    <img src="/image/javaimage.png" class="javascript-right javascript-picture" />
+                    <p class="javascript-right javascript-value">$100</p>
+
+                </div>
+
+
+
+
+
+
+
+
+                </section>
+
+                <section class="other-register   Node-item">
+ 
+                <div class=" Node-item Node-left">
+
+                    <div class="Node-left Node-checkbox">
+
+                       <label for="" >Node.js Workshop</label>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="Node-left Node-empty">
+
+                        <p>Tuesday 9am-12pm</p>
+                    </div>
+                </div>
+
+                <div class=" Node-item Node-right">
+
+                    <img src="/image/node.png" class="Node-right Node-picture" />
+                    <p class="Node-right Node-value">$100</p>
+
+                </div>
+
+
+
+
+
+
+
+
+                </section>
+
+
+                <section class="other-register framework-item">
+ 
+                <div class="framework-item framework-left">
+
+                    <div class="framework-left framework-checkbox">
+
+                       <label for="" >JavaScript Frameworks Workshop</label>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="framework-left framework-empty">
+
+                        <p>Tuesday 9am-12pm</p>
+                    </div>
+                </div>
+
+                <div class="framework-item framework-right">
+
+                    <img src="/image/JvFrame.png" class="framework-right framework-picture" />
+                    <p class="framework-right framework-value">$100</p>
+
+                </div>
+
+
+
+
+
+
+
+
+                </section>
+
+
+
+
+
+
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>

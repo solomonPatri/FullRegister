@@ -1,0 +1,325 @@
+*{
+
+    box-sizing: border-box;
+}
+body{
+
+background-color: white;
+font-family: "Roboto",sans-serif;
+text-align: center;
+
+
+}
+
+input ,label,select{
+  display: block;
+}
+.main-header{
+border:2px solid;
+background: linear-gradient(90deg,#d75863, #da865a);
+color:white;
+}
+.main-header-item{
+
+display: flex;
+justify-content: flex-start;
+padding-left:300px;
+font-family:'Roboto',sans-serif;
+font-weight: 300;
+
+}
+.header-name-1{
+
+font-size: small;
+padding-top: 20px;
+
+}
+.required-field{
+display: flex;
+font-weight: 300;
+justify-content: flex-start;
+font-size: small;
+padding-left: 300px;
+
+
+}
+.main-container{
+
+    border:2px solid;
+    
+  
+}
+
+.basic-ts-item{
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom:10px;
+
+}
+.basic-item{
+  display: flex;
+  flex-direction: column;
+  align-self: self-start;
+
+}
+.ts-item{
+
+display: flex;
+flex-direction: column;
+
+}
+.size-design{
+
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin: 8px;
+}
+
+.color-box{
+
+display: flex;
+flex-direction: row;
+padding-left: 8px;
+
+}
+select,input{
+
+  display: flex;
+  width:180px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 2px;
+
+}
+
+.other-job-item{
+
+display: flex;
+padding-left: 20px;
+
+
+}
+.other-job-input{
+width: 100%;
+}
+label{
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
+.register-activities-item{
+
+display: flex;
+flex-direction: column;
+border: 2px solid;
+gap: 10px;
+
+}
+.reg-act-title{
+
+align-self: self-start;
+padding-left: 300px;
+
+
+}
+
+.main-conv-item{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  color:grey;
+}
+.mcf-left{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ margin-left: 100px;
+
+}
+.mcf-checkbox{
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+}
+.mcf-right{
+
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+
+
+
+}
+.mcf-picture{
+    width: 50px;
+    height: 50px;
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.other-register{
+border: 2px solid;
+display: flex;
+flex-wrap: wrap;
+width: 400px;
+gap:5px;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+
+
+.javascript-item{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  color:grey;
+}
+.javascript-left{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.javascript-checkbox{
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+}
+.javascript-right{
+
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+
+
+
+}
+.javascript-picture{
+    width: 50px;
+    height: 50px;
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+
+.Node-item{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  color:grey;
+}
+.Node-left{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+.Node-checkbox{
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+}
+.Node-right{
+
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+
+
+
+}
+.Node-picture{
+    width: 50px;
+    height: 50px;
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+
+
+.framework-item{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  color:grey;
+}
+.framework-left{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+.framework-checkbox{
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+}
+.framework-right{
+
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+
+
+
+}
+.framework-picture{
+    width: 50px;
+    height: 50px;
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
