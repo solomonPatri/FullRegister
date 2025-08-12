@@ -2,263 +2,274 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Register_fullstackConference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Register_fullstackConference</title>
 </head>
 
 <body>
 
 
-    <header class="main-header">
+<header class="main-header">
 
-        <h1 class="main-header-item header-name-1">Register for</h1>
-        <h1 class="main-header-item header-name-2">Full Stack Conference</h1>
-    </header>
+    <h1 class="main-header-item header-name-1">Register for</h1>
+    <h1 class="main-header-item header-name-2">Full Stack Conference</h1>
+</header>
 
-    <main class="main-container  main-item">
+<main class="main-container  main-item">
 
-        <h2 class="main-item required-field">* required field</h2>
+    <h2 class="main-item required-field">* required field</h2>
 
-        <section class="main-item basic-ts-item">
+    <section class="main-item basic-ts-item">
 
-            <section class="basic-ts-item basic-item">
-                <h2 class="basic-item basic-title">Basic Info</h2>
-                <section class="basic-item  basic-name">
-                    <label class="basic-name  name-item">Name: *</label>
-                    <input type="text" id="name" required>
-                </section>
+        <section class="basic-ts-item basic-item">
+            <h2 class="basic-item basic-title">Basic Info</h2>
+            <section class="basic-item  basic-name">
+                <label class="basic-name  name-item">Name: *</label>
+                <input type="text" id="name" required>
+            </section>
 
-                <section class="basic-item basic-address">
-                    <label class="basic-address  address-item">Email Address: *</label>
-                    <input type="text" id="Email address" required>
-                </section>
+            <section class="basic-item basic-address">
+                <label class="basic-address  address-item">Email Address: *</label>
+                <input type="text" id="Email address" required>
+            </section>
 
-                <section class="basic-item basic-job">
-                    <label class="basic-job  job-item">Job Role: </label>
-                    <select id="basic-job select-job">
-                        <option value="Select job role">Select job role</option>
-                        <option value="frontend">Frontend Developer</option>
-                        <option value="backend">Backend Developer</option>
-                        <option value="fullstack">Full Stack Developer</option>
-                        <option value="designer">UI/UX Designer</option>
-                        <option value="pm">Project Manager</option>
+            <section class="basic-item basic-job">
+                <label class="basic-job  job-item">Job Role: </label>
+                <select id="basic-job select-job">
+                    <option value="Select job role">Select job role</option>
+                    <option value="frontend">Frontend Developer</option>
+                    <option value="backend">Backend Developer</option>
+                    <option value="fullstack">Full Stack Developer</option>
+                    <option value="designer">UI/UX Designer</option>
+                    <option value="pm">Project Manager</option>
+                </select>
+            </section>
+
+
+        </section>
+
+
+        <section class="basic-ts-item ts-item">
+
+            <h2 class="ts-item   ts-title">T-Shirt Info</h2>
+            <section class="ts-item size-design">
+                <section class=" size-design size-box">
+                    <label class="size-item size-title">Size:</label>
+                    <select class="ts-size select-size">
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="XXL">XXL</option>
                     </select>
                 </section>
 
-
-            </section>
-
-
-            <section class="basic-ts-item ts-item">
-
-                <h2 class="ts-item   ts-title">T-Shirt Info</h2>
-                <section class="ts-item size-design">
-                    <section class=" size-design size-box">
-                        <label class="size-item size-title">Size:</label>
-                        <select class="ts-size select-size">
-                            <option value="XS">XS</option>
-                            <option value="S">S</option>
-                            <option value="M">M</option>
-                            <option value="L">L</option>
-                            <option value="XL">XL</option>
-                            <option value="XXL">XXL</option>
-                        </select>
-                    </section>
-
-                    <section class=" size-design design-box">
-                        <label class="design-item design-title">Design:</label>
-                        <select class="ts-design select-design">
-                            <option value="">Select Theme</option>
-                            <option value="Js">JS Puns</option>
-                            <option value="heart">I Love You</option>
-                            <option value="node">Node.js Logo</option>
-                            <option value="react">React Rocks</option>
-                            <option value="custom">Design Personalizat</option>
-                        </select>
-                    </section>
-                </section>
-
-
-
-
-
-                <section class="ts-item color-box">
-                    <label class="color-box   color-title">Color:</label>
-                    <select class="color-box select-color">
-                        <option value="blue">Blue</option>
-                        <option value="yellow">Yellow</option>
-                        <option value="pink">Pink</option>
-                        <option value="black">Black</option>
-                        <option value="white">White</option>
-                        <option value="orange">Orange</option>
+                <section class=" size-design design-box">
+                    <label class="design-item design-title">Design:</label>
+                    <select class="ts-design select-design">
+                        <option value="">Select Theme</option>
+                        <option value="Js">JS Puns</option>
+                        <option value="heart">I Love You</option>
+                        <option value="node">Node.js Logo</option>
+                        <option value="react">React Rocks</option>
+                        <option value="custom">Design Personalizat</option>
                     </select>
-
                 </section>
-
-                <section class="ts-item  other-job-item">
-                    <label class="other-job-item  name-item"></label>
-                    <input class="other-job-input" type="text" id="name" placeholder="Other job role?" required>
-                </section>
-
-
-
-            </section>
-        </section>
-
-        <section class="main-item register-activities-item">
-
-            <h2 class="register-activities-item  reg-act-title">Register for Activities *</h2>
-
-            <section class="register-activities-item main-conv-item">
- 
-                <div class="main-conv-item mcf-left">
-
-                    <div class="mcf-left mcf-checkbox">
-
-                       <label for="" >Main Conference</label>
-                        <input type="checkbox">
-                    </div>
-
-                    <div class="mcf-left mcf-empty">
-
-                    </div>
-                </div>
-
-                <div class="main-conv-item mcf-right">
-
-                    <img src="/image/js.png" class="mcf-right mcf-picture" />
-                    <p class="mcf-right mcf-value">$200</p>
-
-                </div>
-
-
-
-
-
-
-
-
-            </section>
-
-            <section class ="register-activities-item other-register">
-
-                <section class="other-register javascript-item">
- 
-                <div class="javascript-item javascript-left">
-
-                    <div class="javascript-left javascript-checkbox">
-
-                       <label for="" >JavaScript Libraries Workshop</label>
-                        <input type="checkbox">
-                    </div>
-
-                    <div class="javascript-left javascript-empty">
-
-                    <p>Tuesday 9am-12pm</p>
-
-                    </div>
-                </div>
-
-                <div class="javascript-item javascript-right">
-
-                    <img src="/image/javaimage.png" class="javascript-right javascript-picture" />
-                    <p class="javascript-right javascript-value">$100</p>
-
-                </div>
-
-
-
-
-
-
-
-
-                </section>
-
-                <section class="other-register   Node-item">
- 
-                <div class=" Node-item Node-left">
-
-                    <div class="Node-left Node-checkbox">
-
-                       <label for="" >Node.js Workshop</label>
-                        <input type="checkbox">
-                    </div>
-
-                    <div class="Node-left Node-empty">
-
-                        <p>Tuesday 9am-12pm</p>
-                    </div>
-                </div>
-
-                <div class=" Node-item Node-right">
-
-                    <img src="/image/node.png" class="Node-right Node-picture" />
-                    <p class="Node-right Node-value">$100</p>
-
-                </div>
-
-
-
-
-
-
-
-
-                </section>
-
-
-                <section class="other-register framework-item">
- 
-                <div class="framework-item framework-left">
-
-                    <div class="framework-left framework-checkbox">
-
-                       <label for="" >JavaScript Frameworks Workshop</label>
-                        <input type="checkbox">
-                    </div>
-
-                    <div class="framework-left framework-empty">
-
-                        <p>Tuesday 9am-12pm</p>
-                    </div>
-                </div>
-
-                <div class="framework-item framework-right">
-
-                    <img src="/image/JvFrame.png" class="framework-right framework-picture" />
-                    <p class="framework-right framework-value">$100</p>
-
-                </div>
-
-
-
-
-
-
-
-
-                </section>
-
-
-
-
-
-
             </section>
 
 
 
 
 
+            <section class="ts-item color-box">
+                <label class="color-box   color-title">Color:</label>
+                <select class="color-box select-color">
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="pink">Pink</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="orange">Orange</option>
+                </select>
+
+            </section>
+
+            <section class="ts-item  other-job-item">
+                <label class="other-job-item  name-item"></label>
+                <input class="other-job-input" type="text" id="name" placeholder="Other job role?" required>
+            </section>
+
+
+
+        </section>
+    </section>
+
+    <section class="main-item register-activities-item">
+
+        <h2 class="register-activities-item  reg-act-title">Register for Activities *</h2>
+
+        <section class="register-activities-item main-conv-item">
+
+            <div class="main-conv-item mcf-left">
+
+                <div class="mcf-left mcf-checkbox">
+
+                    <label for="">Main Conference</label>
+                    <input type="checkbox">
+                </div>
+
+                <div class="mcf-left mcf-empty">
+
+                </div>
+            </div>
+
+            <div class="main-conv-item mcf-right">
+
+                <img src="/image/js.png" class="mcf-right mcf-picture" />
+                <p class="mcf-right mcf-value">$200</p>
+
+            </div>
+
+
+
+
+
+
+
+
+        </section>
+
+
+        <section class="register-activities-item  activities">
+
+
+
+            <article class="activities-item">
+
+                <div class="activities-item-card activities-course activities-left" >
+
+                    <label for="">JavaScript Libraries Workshop</label>
+                    <input type="checkbox"  class="inpt-course">
+
+                </div>
+
+                <div  class="activities-item-card ">
+                        <img src="/image/javaimage.png" alt="">
+                </div>
+
+                <p class="activities-item-card activities-left timetable">Tuesday 9am-12pm</p>
+
+
+                <p class="activities-item-card ">100$</p>
+
+            </article>
+
+                <article class="activities-item">
+
+                <div class="activities-item-card activities-course activities-left" >
+
+                    <label for="">Node.js Workshop</label>
+                    <input type="checkbox"  class="inpt-course">
+
+                </div>
+
+                <div  class="activities-item-card ">
+                        <img src="/image/node.png" alt="">
+                </div>
+
+                <p class="activities-item-card activities-left timetable">Tuesday 1pm-4pm</p>
+
+
+                <p class="activities-item-card ">100$</p>
+
+            </article>
+                <article class="activities-item">
+
+                <div class="activities-item-card activities-course activities-left" >
+
+                    <label for="">JavaScript Framework Workshop</label>
+                    <input type="checkbox"  class="inpt-course">
+
+                </div>
+
+                <div  class="activities-item-card ">
+                        <img src="/image/JvFrame.png" alt="">
+                </div>
+
+                <p class="activities-item-card activities-left timetable">Tuesday 9am-12pm</p>
+
+
+                <p class="activities-item-card ">100$</p>
+
+            </article>
+                <article class="activities-item">
+
+                <div class="activities-item-card activities-course activities-left" >
+
+                    <label for="">Build tools Workshop</label>
+                    <input type="checkbox"  class="inpt-course">
+
+                </div>
+
+                <div  class="activities-item-card ">
+                        <img src="/image/bdtools.png" alt="">
+                </div>
+
+                <p class="activities-item-card activities-left timetable">Tuesday 1pm-4pm</p>
+
+
+                <p class="activities-item-card ">100$</p>
+
+            </article>
+                <article class="activities-item">
+
+                <div class="activities-item-card activities-course activities-left" >
+
+                    <label for="">npm Workshop</label>
+                    <input type="checkbox"  class="inpt-course">
+
+                </div>
+
+                <div  class="activities-item-card ">
+                        <img src="/image/npm.png" alt="">
+                </div>
+
+                <p class="activities-item-card activities-left timetable">Tuesday 9am-12pm</p>
+
+
+                <p class="activities-item-card ">100$</p>
+
+            </article>
+                <article class="activities-item">
+
+                <div class="activities-item-card activities-course activities-left" >
+
+                    <label for="">Express Workshop</label>
+                    <input type="checkbox"  class="inpt-course">
+
+                </div>
+
+                <div  class="activities-item-card ">
+                        <img src="/image/express.png" alt="">
+                </div>
+
+                <p class="activities-item-card activities-left  timetable">Tuesday 9am-12pm</p>
+
+
+                <p class="activities-item-card ">100$</p>
+
+            </article>
+    
+
 
 
 
@@ -273,41 +284,114 @@
         </section>
 
 
+        <section class="register-activities-item payment">
+
+            <p class="payment-item total">Total:$0</p>
+
+
+            <h2 class="payment-item payment-title">Payment info</h2>
+
+
+            <section class="payment-item going-to-pay">
+
+                <label class="going-to-pay-title">I'm going to pay with: 
+              
+                  <div>
+                      <select class="select-pay">
+                          <option value="">Selectt Payment Method<option>
+                          <option value="card">Credit/Debit Card</option>
+                          <option value="cash">Cash</option>
+                          <option value="transfer">Bank Transfer</option>
+                          <option value="paypal">PayPal</option>
+                      </select>
+                  </div>
+               </label>
+
+               <label for="exp-month" class="exp-month">Expiration Date:
+
+                   <div>
+                       <select  name="exp-month">
+                            <option value="">Month</option>
+                            <option value="01">01 - January</option>
+                            <option value="02">02 - February</option>
+                            <option value="03">03 - March</option>
+                            <option value="04">04 - April</option>
+                            <option value="05">05 - May</option>
+                            <option value="06">06 - June</option>
+                            <option value="07">07 - July</option>
+                            <option value="08">08 - August</option>
+                            <option value="09">09 - September</option>
+                            <option value="10">10 - October</option>
+                            <option value="11">11 - November</option>
+                            <option value="12">12 - December</option>
+                       </select>
+                   </div>
+               </label>
+
+              <label for="exp-month" class="exp-year">Expiration Date:
+  
+                   <div>
+                       <select  name="exp-year">
+                            <option value="">Year</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                       </select>
+                    
+                  </div>
+                </label>
+            </section>
+            
+            <section class="payment-item card-dates">
+
+                   <div class="card-number">
+
+                        <label class="card-number">Card Number *</label>
+    
+                        <input type="text"class="card-number">
+                    </div>
+
+                    <div class="zip-code">
+
+                        <label class="zip-code">Zip Code: *</label>
+                        <input type="text">
+
+                    </div>
+
+                   <div class="Cvv">
+
+                        <label class="Cvv">Cvv: *</label>
+                        <input type="text">
+                        
+                    </div>
 
 
 
+            </section>
+            
+
+            <section class="payment-item PayPal">
+                <h2 class="PayPal-item  Paypal-title">PayPal</h2>
+                <p class="PayPal-item PayPal-desc">If you selected the PayPal option we'll take you to Paypal's site to set up you biling information,when you click "Register" beloww</p>
+            </section>
+
+            <section class="payment-item Bitcoin">
+
+                <h2 class="Bitcoin-item Bitcoin-title">Bitcoin</h2>
+                <p class="Bitcoin-item Bitcoin-desc">If you selected the Bitcoin option we'll take you to the Coinbase site to set up your biling information.Due to the nature of exchanging Bitcoin, all Bitcoin transactions will be final.</p>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </section>
         </section>
 
+       <button type="submit" class="button-register">Register</button>
+    
 
 
-
-
-
-
-        </section>
-
-
-
-
-
+    </section>
 
 
 
@@ -316,7 +400,44 @@
 
 
 
-    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
 
 
 
